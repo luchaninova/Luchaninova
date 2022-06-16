@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Front-end by Irina Luchainova</title>
+    <meta
+      name="description"
+      content="Front-end portfolio by Irina Luchaninova"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Irina Luchainova</title>
+
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -18,12 +23,12 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Irina Luchaninova</a>
+        <a class="navbar-brand" href="/">Irina Luchaninova</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -37,11 +42,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" href="/about.html">About me</a>
+            <a class="nav-link" href="/about.html#contact">Contact me</a>
           </div>
         </div>
       </div>
@@ -50,18 +53,18 @@
     <h1>Irina Luchaninova</h1>
     <h3>ua Front-end developer, based in Sumy, Ukraine</h3>
     <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact me</a>
-      <a href="about.html" class="about-link">About me</a>
+      <a href="/about.html#contact" class="contact-link">Contact me</a>
+      <a href="/about.html" class="about-link">About me</a>
     </div>
     <div class="container">
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-md-6">
-          <img src="images/yoga.png" alt="yoga" class="img-fluid rounded" />
+          <div class="d-none d-md-block">
+            <img src="/images/yoga.png" alt="yoga" class="img-fluid rounded" />
+          </div>
         </div>
         <div class="col-md-6">
-          <h2 mb-3>
-            Yoga app
-          </h2>
+          <h2 mb-3>Yoga app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
@@ -74,11 +77,9 @@
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-md-6">
-          <h2 mb-3>
-            Weather app
-          </h2>
+          <h2 mb-3>Weather app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
@@ -90,22 +91,28 @@
           </div>
         </div>
         <div class="col-md-6">
-          <img
-            src="images/weather.png"
-            alt="weather"
-            class="img-fluid rounded"
-          />
+          <div class="d-none d-md-block">
+            <img
+              src="/images/weather.png"
+              alt="weather"
+              class="img-fluid rounded"
+            />
+          </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-md-6">
-          <img src="images/yogurt.png" alt="yourta" class="img-fluid rounded" />
+          <div class="d-none d-md-block">
+            <img
+              src="/images/yogurt.png"
+              alt="yourta"
+              class="img-fluid rounded"
+            />
+          </div>
         </div>
         <div class="col-md-6">
-          <h2 mb-3>
-            Yogurt app
-          </h2>
+          <h2 mb-3>Yogurt app</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
